@@ -158,11 +158,6 @@ OK
 
 ---
 
-## 👨‍💻 Author
-
-**Amine** – 1337 Student
-
----
 
 ## ⭐ Notes
 
