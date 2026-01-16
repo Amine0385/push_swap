@@ -6,7 +6,7 @@
 /*   By: mbouskha <mbouskha@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/30 11:02:56 by mbouskha          #+#    #+#             */
-/*   Updated: 2025/12/30 11:05:57 by mbouskha         ###   ########.fr       */
+/*   Updated: 2026/01/16 11:10:59 by mbouskha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ static void	indexing(t_stack *head, int size)
 
 	arr = malloc(size * sizeof(int));
 	if (!arr)
-		(free_stack(head),(1));
+		exit(1);
 	sort_arr(arr, size, head);
 	while (head)
 	{
